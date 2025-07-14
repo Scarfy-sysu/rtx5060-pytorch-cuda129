@@ -60,3 +60,7 @@ if torch.cuda.is_available():
 else:
     print("GPU 不可用")
 ```
+
+### 使用jupyter检测如下：
+
+![jupyter检测截图](https://github.com/Scarfy-sysu/rtx5060-pytorch-cuda129/blob/main/5060jupyter.png?raw=true)
