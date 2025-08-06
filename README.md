@@ -40,7 +40,11 @@ conda activate torch5060
 ```
 
 ### 2 安装 PyTorch（Nightly + CUDA 12.9）
-
+注意，安装前要删除已有的包
+```bash
+pip uninstall torch torchvision torchaudio
+```
+再进行安装
 ```bash
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129
 ```
